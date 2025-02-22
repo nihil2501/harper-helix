@@ -1,4 +1,4 @@
-### Helix inspo
+# Helix examples
 
     find ~/src/oss/helix/runtime/themes -type f -name '*.toml' | xargs wc -l | sort -r | head -n 26 | tail -n 25 >> README.md
 
