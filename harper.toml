@@ -1,14 +1,119 @@
-# > Scopes
+## [Themes](https://github.com/helix-editor/helix/blob/0deb8bbce6f33124f3434c94c22f5177cb8caa9f/book/src/themes.md)
+### Scopes
+#### Syntax highlighting
+"attribute" = { "fg" = "todo1" }
 
-# >> Syntax highlighting
-"attribute" = "todo1"
+# "type" = {}
+# "type.builtin" = {}
+# "type.parameter" = {}
+# "type.enum" = {}
+# "type.enum.variant" = {}
 
-"type" = ""
-"type.builtin" = ""
-"type.parameter" = ""
-"type.enum.variant" = ""
+# "constructor" = {}
 
-# >> Interface
+# "constants" = {}
+# "constants.builtin" = {}
+# "constants.builtin.boolean" = {}
+# "constants.character" = {}
+# "constants.character.escape" = {}
+# "constants.numeric" = {}
+# "constants.numeric.integer" = {}
+# "constants.numeric.float" = {}
+
+# "string" = {}
+# "string.regexp" = {}
+# "string.special" = {}
+# "string.special.path" = {}
+# "string.special.url" = {}
+# "string.special.symbol" = {}
+
+# "comment" = {}
+# "comment.line" = {}
+# "comment.block" = {}
+# "comment.block.documentation" = {}
+
+# "variable" = {}
+# "variable.builtin" = {}
+# "variable.parameter" = {}
+# "variable.other" = {}
+# "variable.other.member" = {}
+# "variable.other.member.private" = {}
+
+# "label" = {}
+
+# "punctuation" = {}
+# "punctuation.delimiter" = {}
+# "punctuation.bracket" = {}
+# "punctuation.special" = {}
+
+# "keyword" = {}
+# "keyword.control" = {}
+# "keyword.control.conditional" = {}
+# "keyword.control.repeat" = {}
+# "keyword.control.import" = {}
+# "keyword.control.return" = {}
+# "keyword.control.exception" = {}
+# "keyword.operator" = {}
+# "keyword.directive" = {}
+# "keyword.function" = {}
+# "keyword.storage" = {}
+# "keyword.storage.type" = {}
+# "keyword.storage.modifier" = {}
+
+# "operator" = {}
+
+# "function" = {}
+# "function.builtin" = {}
+# "function.method" = {}
+# "function.method.private" = {}
+# "function.macro" = {}
+# "function.special" = {}
+
+# "tag" = {}
+# "tag.builtin" = {}
+
+# "namespace" = {}
+
+# "special" = {}
+
+# "markup" = {}
+# "markup.heading" = {}
+# "markup.heading.marker" = {}
+# "markup.heading.1" = {}
+# "markup.heading.2" = {}
+# "markup.heading.3" = {}
+# "markup.heading.4" = {}
+# "markup.heading.5" = {}
+# "markup.heading.6" = {}
+# "markup.list" = {}
+# "markup.list.unnumbered" = {}
+# "markup.list.numbered" = {}
+# "markup.list.checked" = {}
+# "markup.list.unchecked" = {}
+# "markup.bold" = {}
+# "markup.italic" = {}
+# "markup.strikethrough" = {}
+# "markup.link" = {}
+# "markup.link.url" = {}
+# "markup.link.label" = {}
+# "markup.link.text" = {}
+# "markup.quote" = {}
+# "markup.raw" = {}
+# "markup.raw.inline" = {}
+# "markup.raw.block" = {}
+
+# "diff" = {}
+# "diff.plus" = {}
+# "diff.plus.gutter" = {}
+# "diff.minus" = {}
+# "diff.minus.gutter" = {}
+# "diff.delta" = {}
+# "diff.delta.moved" = {}
+# "diff.delta.conflict" = {}
+# "diff.delta.gutter" = {}
+
+
+#### Interface
 
 [palette]
 todo1 = "#f05932"
