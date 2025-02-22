@@ -41,7 +41,7 @@
 # "label" = {}
 
 "punctuation" = { fg = "todo2" }
-"punctuation.delimiter" = { fg = "todo2", bg = "todo9" }
+"punctuation.delimiter" = { fg = "todo2" }
 # "punctuation.bracket" = {}
 # "punctuation.special" = {}
 
@@ -113,6 +113,8 @@
 
 
 #### Interface
+"ui.background" = { bg = "bg-main" }
+"ui.selection" = { bg = "fg-main" }
 
 [palette]
 todo0 = "#ae93c3"
@@ -125,3 +127,6 @@ todo6 = "#489e48"
 todo7 = "#d6da25"
 todo8 = "#7fb5e1"
 todo9 = "#5a5753"
+todo10 = "#8c8983"
+fg-main = "#5a5753"
+bg-main = "#010101"
