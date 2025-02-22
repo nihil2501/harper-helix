@@ -1,52 +1,51 @@
 ## [Themes](https://github.com/helix-editor/helix/blob/0deb8bbce6f33124f3434c94c22f5177cb8caa9f/book/src/themes.md)
 ### Scopes
 #### Syntax highlighting
-"attribute" = { "fg" = "todo1" }
+"attribute" = { fg = "todo1" }
 
-# "type" = {}
+"type" = { fg = "todo7" }
 # "type.builtin" = {}
 # "type.parameter" = {}
 # "type.enum" = {}
 # "type.enum.variant" = {}
+"constructor" = { fg = "todo7" }
 
-# "constructor" = {}
+"constant" = { fg = "todo1" }
+# "constant.builtin" = {}
+# "constant.builtin.boolean" = {}
+# "constant.character" = {}
+"constant.character.escape" = { fg = "todo0" }
+# "constant.numeric" = {}
+# "constant.numeric.integer" = {}
+# "constant.numeric.float" = {}
 
-# "constants" = {}
-# "constants.builtin" = {}
-# "constants.builtin.boolean" = {}
-# "constants.character" = {}
-# "constants.character.escape" = {}
-# "constants.numeric" = {}
-# "constants.numeric.integer" = {}
-# "constants.numeric.float" = {}
-
-# "string" = {}
-# "string.regexp" = {}
+"string" = { fg = "todo8" }
+"string.regexp" = { fg = "todo0" }
 # "string.special" = {}
 # "string.special.path" = {}
 # "string.special.url" = {}
-# "string.special.symbol" = {}
+"string.special.symbol" = { fg = "todo0" }
 
-# "comment" = {}
+"comment" = { fg = "todo3" }
 # "comment.line" = {}
 # "comment.block" = {}
 # "comment.block.documentation" = {}
 
-# "variable" = {}
+"variable" = { fg = "todo5" }
 # "variable.builtin" = {}
-# "variable.parameter" = {}
+"variable.parameter" = { fg = "todo2" }
 # "variable.other" = {}
 # "variable.other.member" = {}
 # "variable.other.member.private" = {}
 
 # "label" = {}
 
-# "punctuation" = {}
-# "punctuation.delimiter" = {}
+"punctuation" = { fg = "todo2" }
+"punctuation.delimiter" = { fg = "todo2", bg = "todo9" }
 # "punctuation.bracket" = {}
 # "punctuation.special" = {}
 
-# "keyword" = {}
+"keyword" = { fg = "todo4" }
 # "keyword.control" = {}
 # "keyword.control.conditional" = {}
 # "keyword.control.repeat" = {}
@@ -60,16 +59,16 @@
 # "keyword.storage.type" = {}
 # "keyword.storage.modifier" = {}
 
-# "operator" = {}
+"operator" = { fg = "todo2" }
 
-# "function" = {}
+"function" = { fg = "todo6" }
 # "function.builtin" = {}
 # "function.method" = {}
 # "function.method.private" = {}
 # "function.macro" = {}
 # "function.special" = {}
 
-# "tag" = {}
+"tag" = { fg = "todo5" }
 # "tag.builtin" = {}
 
 # "namespace" = {}
@@ -77,7 +76,7 @@
 # "special" = {}
 
 # "markup" = {}
-# "markup.heading" = {}
+"markup.heading" = { fg = "todo6" }
 # "markup.heading.marker" = {}
 # "markup.heading.1" = {}
 # "markup.heading.2" = {}
@@ -85,29 +84,29 @@
 # "markup.heading.4" = {}
 # "markup.heading.5" = {}
 # "markup.heading.6" = {}
-# "markup.list" = {}
+"markup.list" = { fg = "todo5" }
 # "markup.list.unnumbered" = {}
 # "markup.list.numbered" = {}
 # "markup.list.checked" = {}
 # "markup.list.unchecked" = {}
-# "markup.bold" = {}
-# "markup.italic" = {}
+"markup.bold" = { fg = "todo7", modifiers = ["bold"] }
+"markup.italic" = { fg = "todo4", modifiers = ["italic"] }
 # "markup.strikethrough" = {}
 # "markup.link" = {}
-# "markup.link.url" = {}
+"markup.link.url" = { fg = "todo1" }
 # "markup.link.label" = {}
-# "markup.link.text" = {}
-# "markup.quote" = {}
+"markup.link.text" = { fg = "todo5" }
+"markup.quote" = { fg = "todo1" }
 # "markup.raw" = {}
-# "markup.raw.inline" = {}
+"markup.raw.inline" = { fg = "todo8" }
 # "markup.raw.block" = {}
 
 # "diff" = {}
-# "diff.plus" = {}
+"diff.plus" = { fg = "todo8" }
 # "diff.plus.gutter" = {}
-# "diff.minus" = {}
+"diff.minus" = { fg = "todo5" }
 # "diff.minus.gutter" = {}
-# "diff.delta" = {}
+"diff.delta" = { fg = "todo4"}
 # "diff.delta.moved" = {}
 # "diff.delta.conflict" = {}
 # "diff.delta.gutter" = {}
@@ -116,4 +115,13 @@
 #### Interface
 
 [palette]
+todo0 = "#ae93c3"
 todo1 = "#f05932"
+todo2 = "#a8a49d"
+todo3 = "#726e6a"
+todo4 = "#b296c6"
+todo5 = "#f8b63f"
+todo6 = "#489e48"
+todo7 = "#d6da25"
+todo8 = "#7fb5e1"
+todo9 = "#5a5753"
